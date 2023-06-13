@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * SussexDev_Simple
+
+ * @category   SussexDev
+ * @package    SussexDev_Simple
+ * @copyright  Copyright (c) 2019 Scott Parsons
+ * @license    https://github.com/ScottParsons/module-Simpleuicomponent/blob/master/LICENSE.md
+ * @version    1.1.2
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="simple" frontName="simple">
+            <module name="SussexDev_Simple" />
+        </route>
+    </router>
+</config>

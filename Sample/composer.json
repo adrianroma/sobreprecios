@@ -1,0 +1,21 @@
+{
+  "name": "sussexdev/module-sample",
+  "description": "A Magento 2 sample module demonstrating how to implement a grid and form UI Component.",
+  "version": "1.1.2",
+  "license": "MIT",
+  "type": "magento2-module",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/adrianroma/module-chupaprecios"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SussexDev\\Sample\\": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="chupaprecios" resource="default" engine="innodb" comment="Admin Grid Table">
+        <column xsi:type="int"  padding="6" unsigned="false" nullable="false" identity="true" name="data_id"  comment="Data ID"/>
+        <column xsi:type="text" name="sku" nullable="false"  comment="SKU"/>
+        <column xsi:type="int" name="sobreprecio" nullable="false"  comment="Sobreprecio"/>
+        <column xsi:type="int" name="costoenvio" nullable="false" comment="Costoenvio"/>
+        <column xsi:type="int" name="originalprice" nullable="false" comment="Precio Original"/>
+        <column xsi:type="int" name="price" nullable="false" comment="Precio Actual"/>
+        <column xsi:type="boolean" name="lockprice" nullable="false" comment="Lock PricePric"/>
+        <column xsi:type="timestamp" name="created_at" nullable="false"  comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at"  nullable="false" comment="Update At"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="data_id"/>
+        </constraint>
+    </table>
+</schema>

@@ -1,4 +1,4 @@
-# sobreprecios
+# Masiva Edicion de Precios
 
 Modulo Simple : Modulo que controla el precio del producto agregando sobreprecio al precio original y tiene posiblidad de reestablecer el precio original  
 
